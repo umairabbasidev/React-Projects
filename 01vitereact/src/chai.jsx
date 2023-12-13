@@ -1,7 +1,5 @@
-function Chai(){
- return(
-  <h3>This is test heading </h3>
- )
+function Chai() {
+  return <h3>This is test heading </h3>;
 }
 
-export default Chai
+export default Chai;
