@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   const [length, setLength] = useState(8);
   const [nuberAllowed,setNumberAllowed]  = useState(false)
+  const [characterAllowed,setCharacterAllowed] =  useState(false)
 
   return (
     <>
