@@ -19,13 +19,13 @@ function App() {
       </div>
       <div className="flex justify-between flex-wrap">
         <div>
-          <Card username="Umair Abbasi" btn = "visit"/>
+          <Card username="Umair Abbasi" btn="visit" />
         </div>
         <div className="mx-2">
-          <Card username="Uzair Abbasi" btn= "Contact" />
+          <Card username="Uzair Abbasi" btn="Contact" />
         </div>
         <div>
-          <Card username = "Asadullah Abbasi" />
+          <Card username="Asadullah Abbas"  />
         </div>
       </div>
     </>

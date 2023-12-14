@@ -1,8 +1,6 @@
 import React from "react";
 
-function Card({username,btn1}) {
- 
-
+function Card({ username, btn = "click" }) {
   return (
     <div className="w-[300px] rounded-md border">
       <img
@@ -48,7 +46,8 @@ function Card({username,btn1}) {
           type="button"
           className="mt-4 w-full rounded-sm bg-black px-2 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
         >
-         {btn1}
+          {/* {btn||"click"}  // also declared defalut props value  but this approach is readability issue */}
+          {btn}
         </button>
       </div>
     </div>
