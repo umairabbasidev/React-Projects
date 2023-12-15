@@ -24,7 +24,9 @@ function App() {
   return (
     <>
       <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-700">
-       
+
+        <div className="flex shadow  rounded-lg overflow-hidden mb-4">inner</div>
+       outer
       </div>
     </>
   );
